@@ -1,0 +1,4 @@
+if (!file_exists('cadastro.db')) {
+    $db = new SQLite3('cadastro.db');
+    $db->close();
+}
